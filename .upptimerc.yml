@@ -25,44 +25,45 @@ status-website:
       href: /
     - title: kabina.online
       href: https://kabina.online
-  i18n:
-    activeIncidents: Incidentes activos
-    allSystemsOperational: Todo funciona con normalidad
-    incidentReport: "Incidente #$NUMBER →"
-    activeIncidentSummary: Abierto el $DATE con $POSTS novedades
-    anIncidentSummary: Abierto el $DATE con $POSTS novedades
-    pastIncidents: Incidentes anteriores
-    pastIncidentsResolved: Resuelto en $MINUTES minutos con $POSTS novedades
-    liveStatus: Estado actual
-    status: Estado
-    duration: Duración
-    durationMin: $DURATION minutos
-    overallUptime: "Disponibilidad general: $UPTIME"
-    overallUptimeTitle: Disponibilidad general
-    averageResponseTime: "Tiempo de respuesta promedio: $TIMEms"
-    averageResponseTimeTitle: Tiempo de respuesta promedio
-    sevelDayResponseTime: Respuesta promedio (7 días)
-    responseTimeMs: Tiempo de respuesta (ms)
-    up: Funciona
-    down: Caído
-    degraded: Lento
-    ms: ms
-    loading: Cargando
-    navGitHub: GitHub
-    footer: Kabina · monitoreado con Upptime
-    rateLimitExceededTitle: Límite de consultas alcanzado
-    rateLimitExceededIntro: Superaste el límite de consultas por hora. Probá de nuevo en un rato.
-    errorTitle: Ocurrió un error
-    errorIntro: No pudimos cargar el estado. Probá de nuevo en un rato.
-    errorText: Podés ver el estado directamente en
-    errorHome: Volver al inicio
-    pastScheduledMaintenance: Mantenimientos anteriores
-    scheduledMaintenance: Mantenimiento programado
-    scheduledMaintenanceSummaryStarted: Empezó el $DATE, dura $DURATION minutos
-    scheduledMaintenanceSummaryStarts: Empieza el $DATE, dura $DURATION minutos
-    startedAt: Empezó
-    startsAt: Empieza
-    duration_minutes: $DURATION minutos
+
+i18n:
+  activeIncidents: Incidentes activos
+  allSystemsOperational: Todo funciona con normalidad
+  incidentReport: "Incidente #$NUMBER →"
+  activeIncidentSummary: Abierto el $DATE con $POSTS novedades
+  anIncidentSummary: Abierto el $DATE con $POSTS novedades
+  pastIncidents: Incidentes anteriores
+  pastIncidentsResolved: Resuelto en $MINUTES minutos con $POSTS novedades
+  liveStatus: Estado actual
+  status: Estado
+  duration: Duración
+  durationMin: $DURATION minutos
+  overallUptime: "Disponibilidad general: $UPTIME"
+  overallUptimeTitle: Disponibilidad general
+  averageResponseTime: "Tiempo de respuesta promedio: $TIMEms"
+  averageResponseTimeTitle: Tiempo de respuesta promedio
+  sevelDayResponseTime: Respuesta promedio (7 días)
+  responseTimeMs: Tiempo de respuesta (ms)
+  up: Funciona
+  down: Caído
+  degraded: Lento
+  ms: ms
+  loading: Cargando
+  navGitHub: GitHub
+  footer: Kabina · monitoreado con Upptime
+  rateLimitExceededTitle: Límite de consultas alcanzado
+  rateLimitExceededIntro: Superaste el límite de consultas por hora. Probá de nuevo en un rato.
+  errorTitle: Ocurrió un error
+  errorIntro: No pudimos cargar el estado. Probá de nuevo en un rato.
+  errorText: Podés ver el estado directamente en
+  errorHome: Volver al inicio
+  pastScheduledMaintenance: Mantenimientos anteriores
+  scheduledMaintenance: Mantenimiento programado
+  scheduledMaintenanceSummaryStarted: Empezó el $DATE, dura $DURATION minutos
+  scheduledMaintenanceSummaryStarts: Empieza el $DATE, dura $DURATION minutos
+  startedAt: Empezó
+  startsAt: Empieza
+  duration_minutes: $DURATION minutos
 
 workflowSchedule:
   graphs: "0 0 * * *"
